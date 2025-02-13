@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Details Form</title>
+</head>
+<body style="font-family: Arial, sans-serif;">
+    <div style="width: 400px; margin: 0 auto; padding: 20px; background-color: #ffffcc; border: 2px solid orange; border-radius: 10px; text-align: left;">
+        <form action="#" method="post" enctype="multipart/form-data">
+            <h2 style="color: red; text-align: center;">Personal Details</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" style="width: 100%; margin-top: 5px;">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" style="width: 100%; margin-top: 5px;">
+
+            <label for="email">E-mail id:</label>
+            <input type="email" id="email" name="email" style="width: 100%; margin-top: 5px;">
+
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male" style="color: black;">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female" style="color: black;">Female</label>
+
+            <label for="contact">Contact#:</label>
+            <input type="text" id="contact" name="contact" style="width: 100%; margin-top: 5px;">
+
+            <h3 style="color: red; text-align: center;">Educational Qualification</h3>
+            <label for="degree">Degree:</label>
+            <select id="degree" name="degree" style="width: 100%; margin-top: 5px;">
+                <option value="">-- Select Group --</option>
+                <option value="science">Science</option>
+                <option value="arts">Arts</option>
+                <option value="commerce">Commerce</option>
+            </select>
+
+            <label for="engineering">Engineering:</label>
+            <select id="engineering" name="engineering" style="width: 100%; margin-top: 5px;">
+                <option value="">-- Select Group --</option>
+                <option value="civil">Civil</option>
+                <option value="mechanical">Mechanical</option>
+                <option value="computer">Computer</option>
+            </select>
+
+            <label>Hobbies:</label>
+            <input type="checkbox" id="chess" name="hobbies" value="chess">
+            <label for="chess" style="color: black;">Playing Chess</label>
+            <input type="checkbox" id="books" name="hobbies" value="books">
+            <label for="books" style="color: black;">Reading Books</label>
+
+            <h3 style="color: red; text-align: center;">Address</h3>
+            <textarea id="address" name="address" rows="4" cols="50" style="width: 100%; margin-top: 5px;"></textarea>
+
+            <label for="resume">Attach Resume:</label>
+            <input type="file" id="resume" name="resume" style="width: 100%; margin-top: 5px;">
+
+            <button type="submit" style="width: 100%; margin-top: 10px; background-color: orange; color: white; font-size: 16px; border: none; border-radius: 5px; cursor: pointer; padding: 10px;">SUBMIT</button>
+        </form>
+    </div>
+</body>
+</html>
